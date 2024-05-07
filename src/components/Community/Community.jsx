@@ -32,12 +32,19 @@ const Community = () => {
             src="assets/images/communities/ilugd.png"
             alt="India Linux User Group"
           />
-        </a>
-        <a href="https://fossunited.org/" target="_blank" rel="no noreferrer">
+          </a>
+          <a href="https://fossunited.org/" target="_blank" rel="no noreferrer">
           <img
             className={styles.community__chapter}
             src="assets/images/communities/foss-united.png"
             alt="Foss United Foundation"
+          />
+        </a>
+        <a href="https://2024.ubucon.asia/" target="_blank" rel="no noreferrer">
+          <img
+            className={styles.community__chapter}
+            src="/assets/images/communities/ubucon.png"
+            alt="Ubucon Asia"
           />
         </a>
       </div>
