@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pydelhi",
+        "logo": "assets/images/communities/pydelhi.png",
+        "link": "https://pydelhi.org",
+        "outline": true
+    },
+    {
+        "name": "RustDelhi",
+        "logo": "assets/images/communities/rustdelhi.png",
+        "link": "https://rustdelhi.in",
+        "outline": false
+    },
+    {
+        "name": "India Linux User Group",
+        "logo": "assets/images/communities/ilugd.png",
+        "link": "https://linuxdelhi.org/",
+        "outline": true
+    },
+    {
+        "name": "Foss United Foundation",
+        "logo": "assets/images/communities/foss-united.png",
+        "link": "https://fossunited.org/",
+        "outline": false
+    },
+    {
+        "name": "Ubucon Asia",
+        "logo": "assets/images/communities/ubucon.png",
+        "link": "https://2024.ubucon.asia/",
+        "outline": false
+    }
+]
