@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import EventItem from "../Reusables/EventItem/EventItem";
-import styles from "./Events.module.css";
-import Carousel from "../Reusables/Carousel/Carousel";
+import { useState, useEffect } from "react"
+import EventItem from "../Reusables/EventItem/EventItem"
+import styles from "./Events.module.css"
+import Carousel from "../Reusables/Carousel/Carousel"
 
 /**
  * Fetches data from "/data/events.json" and sets the fetched data in the component's state.
@@ -9,16 +9,16 @@ import Carousel from "../Reusables/Carousel/Carousel";
  * @return {JSX.Element} The rendered Events component.
  */
 const Events = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   useEffect(() => {
-    fetchData();
-  }, []);
+    fetchData()
+  }, [])
 
   async function fetchData() {
-    const response = await fetch("data/events.json");
-    const data = await response.json();
-    setData(data);
+    const response = await fetch("data/events.json")
+    const data = await response.json()
+    setData(data)
   }
 
   return (
@@ -42,11 +42,11 @@ const Events = () => {
               register={item.register}
               gallery={item.gallery}
             />
-          );
+          )
         })}
       />
     </div>
-  );
-};
+  )
+}
 
-export default Events;
+export default Events

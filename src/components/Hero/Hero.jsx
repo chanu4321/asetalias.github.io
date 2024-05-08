@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import styles from "./Hero.module.css";
+import styles from "./Hero.module.css"
 
 /**
  * Renders the Hero component.
@@ -11,11 +11,12 @@ const Hero = () => {
     <div id="home">
       <div className={styles.hero}>
         <h1 className={styles.hero__one}>
-        Where {" "}
-          <span className={styles.hero__one_highlight}>Open Source</span> meets people
+          Where <span className={styles.hero__one_highlight}>Open Source</span>{" "}
+          meets people
         </h1>
         <p className={styles.hero__description}>
-          &lt;/ALiAS is the largest open source community in Amity. We aim to foster and fuel hacker culture across the city/&gt;
+          &lt;/ALiAS is the largest open source community in Amity. We aim to
+          foster and fuel hacker culture across the city/&gt;
         </p>
         <div className={styles.hero__interactive}>
           <img
@@ -25,7 +26,11 @@ const Hero = () => {
           />
           <div className={styles.hero__btn_container}>
             <button className={styles.hero__button}>
-              <a href="https://bit.ly/joinalias" target="_blank" rel="noreferrer">
+              <a
+                href="https://bit.ly/joinalias"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Join us or else 🔪
               </a>
             </button>
@@ -38,7 +43,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

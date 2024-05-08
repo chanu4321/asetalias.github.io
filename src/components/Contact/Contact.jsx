@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import styles from "./Contact.module.css";
+import { useState, useEffect } from "react"
+import styles from "./Contact.module.css"
 
 /**
  * Fetches data from "/data/socials.json" and sets the fetched data in the component's state.
@@ -7,16 +7,16 @@ import styles from "./Contact.module.css";
  * @return {JSX.Element} The rendered Contact component.
  */
 const Contact = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   useEffect(() => {
-    fetchData();
-  }, []);
+    fetchData()
+  }, [])
 
   async function fetchData() {
-    const response = await fetch("data/socials.json");
-    const data = await response.json();
-    setData(data);
+    const response = await fetch("data/socials.json")
+    const data = await response.json()
+    setData(data)
   }
 
   return (
@@ -35,11 +35,15 @@ const Contact = () => {
                 alt={item.id}
               />
             </a>
-          );
+          )
         })}
       </div>
       <div className={styles.powered}>
-        <a href="https://lucknow.asetalias.in" target="_blank" rel="no noreferrer">
+        <a
+          href="https://lucknow.asetalias.in"
+          target="_blank"
+          rel="no noreferrer"
+        >
           <img
             className={styles.contact__chapter}
             src="assets/images/alias-lucknow.svg"
@@ -55,11 +59,12 @@ const Contact = () => {
         </a>
       </div>
       <h2 className={styles.contact__credits}>
-        forked with {" "}
-        <span className={styles.contact__heart}>&nbsp;&#10084;&nbsp;</span> from <a href="https://lucknow.asetalias.in">ALiAS Lucknow</a>
+        forked with{" "}
+        <span className={styles.contact__heart}>&nbsp;&#10084;&nbsp;</span> from{" "}
+        <a href="https://lucknow.asetalias.in">ALiAS Lucknow</a>
       </h2>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import styles from "./EventItem.module.css";
+import styles from "./EventItem.module.css"
 
 /**
  * Renders an individual event item component.
@@ -14,7 +14,16 @@ import styles from "./EventItem.module.css";
  * @param {string} props.register - The link to register for the event.
  * @returns {JSX.Element} - The rendered event item component.
  */
-const EventItem = ({ image, title, date, time, venue, about, register, gallery}) => {
+const EventItem = ({
+  image,
+  title,
+  date,
+  time,
+  venue,
+  about,
+  register,
+  gallery,
+}) => {
   return (
     <div className={styles.event}>
       <div className={styles.event__container}>
@@ -63,7 +72,8 @@ const EventItem = ({ image, title, date, time, venue, about, register, gallery})
               Register
             </a>
           </button>
-        )},
+        )}
+        ,
         {gallery && (
           <button className={styles.content__btn}>
             <a href={gallery} target="_blank" rel="noreferrer">
@@ -73,7 +83,7 @@ const EventItem = ({ image, title, date, time, venue, about, register, gallery})
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default EventItem;
+export default EventItem

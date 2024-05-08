@@ -6,7 +6,6 @@
   --items: 2;
 }
 
-
 .alumni__title {
   color: white;
   font-weight: 800;
@@ -20,14 +19,13 @@
   color: transparent;
 }
 
-
 @media screen and (max-width: 1400px) {
   .alumni {
     --items: 1.8;
   }
 }
 
-@media screen and (max-width: 1315px ) {
+@media screen and (max-width: 1315px) {
   .alumni {
     --items: 1.65;
   }
@@ -49,7 +47,6 @@
   .alumni {
     --items: 1.2;
   }
-  
 }
 
 @media screen and (max-width: 1024px) {
@@ -57,8 +54,3 @@
     --items: 1;
   }
 }
-
-
-
-
-

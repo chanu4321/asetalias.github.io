@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import styles from "./Alumni.module.css";
-import Carousel from "../Reusables/Carousel/Carousel";
-import AlumniItem from "../Reusables/AlumniItem/AlumniItem";
+import { useState, useEffect } from "react"
+import styles from "./Alumni.module.css"
+import Carousel from "../Reusables/Carousel/Carousel"
+import AlumniItem from "../Reusables/AlumniItem/AlumniItem"
 
 /**
  * Fetches data from "/data/alumni.json" and sets the fetched data in the component's state.
@@ -9,16 +9,16 @@ import AlumniItem from "../Reusables/AlumniItem/AlumniItem";
  * @return {JSX.Element} The rendered Alumni component.
  */
 const Alumni = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   useEffect(() => {
-    fetchData();
-  }, []);
+    fetchData()
+  }, [])
 
   async function fetchData() {
-    const response = await fetch("data/alumni.json");
-    const data = await response.json();
-    setData(data);
+    const response = await fetch("data/alumni.json")
+    const data = await response.json()
+    setData(data)
   }
 
   return (
@@ -38,11 +38,11 @@ const Alumni = () => {
               quote={item.quote}
               socials={item.social}
             />
-          );
+          )
         })}
       />
     </div>
-  );
-};
+  )
+}
 
-export default Alumni;
+export default Alumni

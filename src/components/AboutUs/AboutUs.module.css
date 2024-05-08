@@ -27,10 +27,9 @@
   .aboutus__container {
     flex-direction: column;
     align-items: center;
-    margin: var(--margin-medium)
+    margin: var(--margin-medium);
   }
 }
-
 
 @media screen and (max-width: 430px) {
   .aboutus__container {

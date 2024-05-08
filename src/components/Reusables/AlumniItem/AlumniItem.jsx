@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import SocialRow from "../SocialRow/SocialRow";
-import styles from "./AlumniItem.module.css";
+import SocialRow from "../SocialRow/SocialRow"
+import styles from "./AlumniItem.module.css"
 
 /**
  * Renders an individual alumni item component.
@@ -30,7 +30,7 @@ const AlumniItem = ({ image, firstName, lastName, quote, socials }) => {
         {socials && <SocialRow socials={socials} />}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AlumniItem;
+export default AlumniItem

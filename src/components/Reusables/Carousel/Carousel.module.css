@@ -62,7 +62,6 @@
   .carousel__button__right {
     display: none;
   }
-  
 }
 
 @media screen and (max-width: 625px) {
@@ -74,7 +73,6 @@
   .carousel {
     margin-left: var(--gap);
   }
-
 }
 
 @media screen and (max-width: 426px) {

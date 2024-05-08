@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./Navbar.module.css";
+import React from "react"
+import styles from "./Navbar.module.css"
 
 /**
  * Renders the Navbar component.
@@ -8,21 +8,21 @@ import styles from "./Navbar.module.css";
  */
 const Navbar = () => {
   // Set up state to track scrolling
-  const [scrolling, setScrolling] = React.useState(false);
+  const [scrolling, setScrolling] = React.useState(false)
   // Toggle navbar
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false)
 
   const handleClickScroll = (e) => {
-    const element = document.getElementById(e);
+    const element = document.getElementById(e)
     setOpen(false)
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "smooth" })
     }
-  };
+  }
 
   const handleNavbarToggle = () => {
-    setOpen(!open);
-  };
+    setOpen(!open)
+  }
 
   // Add event listener to track scroll position on component mount
   React.useEffect(() => {
@@ -30,25 +30,25 @@ const Navbar = () => {
       // If the scroll position is greater than 100, set scrolling to true
       // Otherwise, set scrolling to false
       if (window.scrollY > 100) {
-        setScrolling(true);
+        setScrolling(true)
       } else {
-        setScrolling(false);
+        setScrolling(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
     if (open) {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = "hidden"
     } else {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "auto"
     }
 
     // Remove the event listener on component unmount
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [open]);
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [open])
 
   // Render the Navbar component
   return (
@@ -87,7 +87,9 @@ const Navbar = () => {
       </div>
       <ul className={open ? styles.navbar__list_mobile : styles.navbar__list}>
         <li className={styles.navbar__list__item}>
-          <span><a href="https://asetalias.in/blog">Blogs</a></span>
+          <span>
+            <a href="https://asetalias.in/blog">Blogs</a>
+          </span>
         </li>
         <li className={styles.navbar__list__item}>
           <span onClick={() => handleClickScroll("about")}>About Us</span>
@@ -102,14 +104,16 @@ const Navbar = () => {
           <span><a href="https://bit.ly/galleryalias" target="_blank">Gallery</a></span>
         </li> */}
         <li className={styles.navbar__list__item}>
-          <span onClick={() => handleClickScroll("community")}>Communities</span>
+          <span onClick={() => handleClickScroll("community")}>
+            Communities
+          </span>
         </li>
         <li className={styles.navbar__list__item}>
           <span onClick={() => handleClickScroll("contact")}>Contact</span>
         </li>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

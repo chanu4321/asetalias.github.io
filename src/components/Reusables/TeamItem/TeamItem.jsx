@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import SocialRow from "../SocialRow/SocialRow";
-import styles from "./TeamItem.module.css";
+import SocialRow from "../SocialRow/SocialRow"
+import styles from "./TeamItem.module.css"
 
 /**
  * Renders an individual team item component.
@@ -24,7 +24,7 @@ const TeamItem = ({ image, name, role, socials }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default TeamItem;
+export default TeamItem

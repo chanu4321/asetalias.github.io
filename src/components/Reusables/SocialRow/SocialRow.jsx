@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import styles from "./SocialRow.module.css";
+import styles from "./SocialRow.module.css"
 
 /**
  * Renders an individual social row component.
@@ -20,10 +20,10 @@ const SocialRow = ({ socials }) => {
               alt={item.id}
             />
           </a>
-        );
+        )
       })}
     </div>
-  );
-};
+  )
+}
 
-export default SocialRow;
+export default SocialRow
