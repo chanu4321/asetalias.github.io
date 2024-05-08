@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react"
-import styles from "./Team.module.css"
+import styles from "./Volunteers.module.css"
 import Carousel from "../Reusables/Carousel/Carousel"
-import TeamItem from "../Reusables/TeamItem/TeamItem"
+import VolunteerItem from "../Reusables/VolunteerItem/VolunteerItem"
 
 /**
- * Fetches data from "/data/members.json" and sets the fetched data in the component's state.
+ * Fetches data from "/data/volunteers.json" and sets the fetched data in the component's state.
  *
- * @return {JSX.Element} The rendered Team component.
+ * @return {JSX.Element} The rendered Volunteers component.
  */
-const Team = () => {
+const Volunteers = () => {
   const [data, setData] = useState([])
 
   useEffect(() => {
@@ -16,7 +16,7 @@ const Team = () => {
   }, [])
 
   async function fetchData() {
-    const response = await fetch("data/members.json")
+    const response = await fetch("data/volunteers.json")
     const data = await response.json()
     setData(data)
   }
@@ -31,7 +31,7 @@ const Team = () => {
         id="team__carousel"
         props={data.map((item) => {
           return (
-            <TeamItem
+            <VolunteerItem
               key={item.id}
               image={item.image}
               name={item.name}
@@ -45,4 +45,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default Volunteers

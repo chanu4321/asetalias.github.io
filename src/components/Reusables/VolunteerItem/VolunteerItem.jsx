@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import SocialRow from "../SocialRow/SocialRow"
-import styles from "./TeamItem.module.css"
+import styles from "./VolunteerItem.module.css"
 
 /**
  * Renders an individual team item component.
@@ -12,7 +12,7 @@ import styles from "./TeamItem.module.css"
  * @param {Array} props.socials - An array of social media objects for the team member.
  * @returns {JSX.Element} - The rendered team item component.
  */
-const TeamItem = ({ image, name, role, socials }) => {
+const VolunteerItem = ({ image, name, role, socials }) => {
   return (
     <div className={styles.team}>
       <div className={styles.team__container}>
@@ -27,4 +27,4 @@ const TeamItem = ({ image, name, role, socials }) => {
   )
 }
 
-export default TeamItem
+export default VolunteerItem

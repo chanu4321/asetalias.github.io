@@ -4,7 +4,7 @@ import Contact from "../../components/Contact/Contact"
 import Events from "../../components/Events/Events"
 import Hero from "../../components/Hero/Hero"
 import Navbar from "../../components/Navbar/Navbar"
-import Team from "../../components/Team/Team"
+import Volunteers from "../../components/Volunteers/Volunteers"
 import Community from "../../components/Community/Community"
 
 import styles from "./Home.module.css"
@@ -21,7 +21,7 @@ const Home = () => {
       <Hero />
       <AboutUs />
       <Events />
-      <Team />
+      <Volunteers />
       <Alumni />
       <Community />
       <Contact />
