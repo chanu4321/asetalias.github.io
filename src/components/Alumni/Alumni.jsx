@@ -35,7 +35,7 @@ const Alumni = () => {
               image={item.image}
               firstName={item.firstName}
               lastName={item.lastName}
-              quote={item.quote}
+              description={item.description}
               socials={item.social}
             />
           )

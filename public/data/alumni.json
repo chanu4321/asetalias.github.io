@@ -3,7 +3,7 @@
     "image": "assets/images/alumni/tushar-malik.webp",
     "firstName": "Tushar",
     "lastName": "Malik",
-    "quote": "When life gives you peanuts, make more of it: like peanut butter, or maybe sauce.",
+    "description": "Backend Intern @Mercari, LFX'22 Intern, MLH Fellow",
     "social": [
       {
         "id": "linkedin",
@@ -19,7 +19,7 @@
     "image": "assets/images/alumni/aakarsh-mj.webp",
     "firstName": "Aakarsh",
     "lastName": "MJ",
-    "quote": "Believe in KDE and contribute to opensource!",
+    "description": "GSoC'24 @Videolan, GSoC'23 @KDE",
     "social": [
       {
         "id": "linkedin",
@@ -35,7 +35,7 @@
     "image": "assets/images/alumni/vinayak-nayar.webp",
     "firstName": "Vinayak",
     "lastName": "Nayar",
-    "quote": "When life gives you Amity, join ALiAS.",
+    "description": "GSoC'23 @Sugarlabs",
     "social": [
       {
         "id": "linkedin",
@@ -51,7 +51,7 @@
     "image": "assets/images/alumni/sagar-deep.webp",
     "firstName": "Sagar",
     "lastName": "Deep",
-    "quote": "Improvise, adapt and overcome.",
+    "description": "Full Stack Dev",
     "social": [
       {
         "id": "linkedin",
@@ -67,7 +67,7 @@
     "image": "assets/images/alumni/achintya-singh.webp",
     "firstName": "Achintya",
     "lastName": "Singh",
-    "quote": "Trust in the lifeforce of the deep mystery and your code.",
+    "description": "GSoC'24 @Videolan, Backend dev @Aftershoot",
     "social": [
       {
         "id": "linkedin",
@@ -83,7 +83,7 @@
     "image": "assets/images/alumni/vipul-gupta.webp",
     "firstName": "Vipul",
     "lastName": "Gupta",
-    "quote": "Life is vanilla, when it's butterscotch, then you just need to ride the bumps 🐣",
+    "description": "Product Owner @Balena, GSoC'18,19",
     "social": [
       {
         "id": "linkedin",
@@ -99,7 +99,7 @@
     "image": "assets/images/alumni/dishant-sethi.webp",
     "firstName": "Dishant",
     "lastName": "Sethi",
-    "quote": "Embrace the lessons, celebrate the memories and continue the legacy of ALiAS",
+    "description": "Founder @Prodinit",
     "social": [
       {
         "id": "linkedin",
@@ -115,7 +115,7 @@
     "image": "assets/images/alumni/venkatesh.webp",
     "firstName": "Venkatesh",
     "lastName": "Chaturvedi",
-    "quote": "You only live once! So use Archlinux and enjoy life.",
+    "description": "Support Engineer @Atlasssian, SIH'22 Winner",
     "social": [
       {
         "id": "linkedin",
@@ -131,7 +131,7 @@
     "image": "assets/images/alumni/anuvrat-parashar.webp",
     "firstName": "Anuvrat",
     "lastName": "Parashar",
-    "quote": "Help will always be given at ALiAS to those who ask for it.🦉",
+    "description": "Founder @Essentia.dev",
     "social": [
       {
         "id": "linkedin",
@@ -147,7 +147,7 @@
     "image": "assets/images/alumni/nikhil-maan.webp",
     "firstName": "Nikhil",
     "lastName": "Maan",
-    "quote": "",
+    "description": "Devloper and maitaner @Sympy, GSoC'19,20,21",
     "social": [
       {
         "id": "linkedin",
@@ -163,7 +163,7 @@
     "image": "assets/images/alumni/aniket-maithani.webp",
     "firstName": "Aniket",
     "lastName": "Maithani",
-    "quote": "",
+    "description": "CTO @GetPlus",
     "social": [
       {
         "id": "linkedin",
