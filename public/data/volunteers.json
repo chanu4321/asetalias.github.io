@@ -358,5 +358,21 @@
         "link": "https://github.com/JackTheSparow"
       }
     ]
+  },
+  {
+    "id": 23,
+    "image": "assets/images/volunteers/ansh-tyagi.webp",
+    "name": "Ansh Tyagi",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "github",
+        "link": "https://github.com/anshtyagi0"
+      },
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/anshtyagi0/"
+      }
+    ]
   }
 ]
