@@ -374,5 +374,21 @@
         "link": "https://www.linkedin.com/in/anshtyagi0/"
       }
     ]
+  },
+  {
+    "id": 24,
+    "image": "assets/images/volunteers/atia.webp",
+    "name": "Atia Naim",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "github",
+        "link": "https://github.com/AN160404"
+      },
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/atia-naim-270b8424b/"
+      }
+    ]
   }
 ]
